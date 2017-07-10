@@ -1,4 +1,23 @@
 'use strict';
+
+const render = (root) => {
+    //root.empty();
+    root.append(Header());
+
+};
+
+const state = {
+    screen: null
+
+};
+
+$(_ => {
+    const root = $('.root');
+    render(root);
+});
+
+
+'use strict';
 const Header = () => {
     const header = $('<header class="container"></header>');
     
@@ -13,4 +32,25 @@ const Header = () => {
     header.append(navMobile);
     
     return header;
+};
+
+'use strict';
+
+
+const getJSON = (url, cb) => {
+
+  const xhr = new XMLHttpRequest();
+
+  xhr.addEventListener('load', () => {
+
+    if (xhr.status !== 200) {
+      return cb(new Error('Error loading JSON from ' + url + '(' + xhr.status + ')'));
+    }
+
+    cb(null, xhr.response);
+  });
+
+  xhr.open('GET', url);
+  xhr.responseType = 'json';
+  xhr.send();
 };
