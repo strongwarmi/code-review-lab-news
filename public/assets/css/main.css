@@ -40,6 +40,21 @@
   margin-top: 5px;
 }
 
+.popular {
+  margin: 15px 3px;
+  display: flex;
+}
+
+.titulo {
+  float: right;
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+.foto {
+  float: left;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   margin-top: 15px;
