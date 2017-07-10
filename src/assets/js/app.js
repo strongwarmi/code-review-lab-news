@@ -7,6 +7,7 @@ const render = (root) => {
 };
 
 const state = {
+    data:null,
     screen: null
 
 };
@@ -14,5 +15,5 @@ const state = {
 $(_ => {
     const root = $('.root');
     render(root);
+    console.log("hola");
 });
-
