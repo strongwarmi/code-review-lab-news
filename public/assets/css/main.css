@@ -2,6 +2,12 @@
   padding-bottom: 15px;
 }
 
+.header-line {
+  height: 2px;
+  margin-top: 20px;
+  background-color: #F7B617;
+}
+
 .search {
   border-bottom: 1px solid #ccc;
   margin-bottom: 20px;
@@ -15,9 +21,6 @@
 .menu {
   background-color: #F7B617;
   color: #fff;
-}
-
-.menu ul {
   padding: 10px;
   display: flex;
   justify-content: space-around;
@@ -40,6 +43,7 @@
   margin-top: 5px;
 }
 
+
 .popular {
   margin: 15px 3px;
   display: flex;
@@ -53,6 +57,37 @@
 
 .foto {
   float: left;
+}
+section {
+  margin: 10px 0;
+}
+
+.cover__category {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cover__line {
+  width: 80px;
+  height: 8px;
+  background-color: #F7B617;
+}
+
+.cover__title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.cover__subtitle {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.cover__img {
+  width: 100%;
+
 }
 
 body {

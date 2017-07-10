@@ -1,0 +1,29 @@
+@import "variable";
+
+section{
+  margin: 10px 0;
+}
+.cover{
+  &__category{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  &__line{
+    width: 80px;
+    height: 8px;
+    background-color: $primary-color;
+  }
+  &__title{
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  &__subtitle{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  &__img{
+    width: 100%;
+  }
+}
