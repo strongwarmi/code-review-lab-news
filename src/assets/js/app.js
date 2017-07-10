@@ -1,15 +1,15 @@
 'use strict';
 
 const render = (root) => {
-    //root.empty();
     root.append(Header());
 
+    $.get('api/news/0', function (response) {
+      if(response != null){
+        root.append(Cover(response));
+      }
+    });
 };
 
-const state = {
-    screen: null
-
-};
 
 $(_ => {
     const root = $('.root');
