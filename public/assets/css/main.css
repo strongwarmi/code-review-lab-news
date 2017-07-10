@@ -1,0 +1,46 @@
+.head-item {
+  padding-bottom: 15px;
+}
+
+.search {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.redes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  background-color: #F7B617;
+  color: #fff;
+}
+
+.menu ul {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+}
+
+.nav-mobile {
+  padding-bottom: 15px;
+  border-bottom: 2px solid #F7B617;
+  margin: 10px auto 20px;
+}
+
+.nav-mobile div {
+  padding: 0;
+}
+
+.nav-mobile div:nth-child(2) {
+  text-align: right;
+  margin-top: 5px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 15px;
+}
