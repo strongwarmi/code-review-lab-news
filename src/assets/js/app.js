@@ -3,16 +3,18 @@
 const render = (root) => {
     root.append(Header());
 
-    $.get('api/news/0', function (response) {
-      if(response != null){
-        root.append(Cover(response));
-      }
-    });
+    if(news != null){
+      root.append(Cover());
+    }
 };
 
+let news;
 
 $(_ => {
+  $.get('api/news/0', function (response) {
+    news = response;
     const root = $('.root');
-    render(root);
+  render(root);
+  });
 });
 
