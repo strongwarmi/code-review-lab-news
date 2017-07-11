@@ -43,7 +43,6 @@
   margin-top: 5px;
 }
 
-
 .popular {
   margin: 15px 3px;
   display: flex;
@@ -58,6 +57,13 @@
 .foto {
   float: left;
 }
+
+.linea {
+  width: 80px;
+  height: 5px;
+  background-color: #F7B617;
+}
+
 section {
   margin: 10px 0;
 }
@@ -87,7 +93,6 @@ section {
 
 .cover__img {
   width: 100%;
-
 }
 
 body {
